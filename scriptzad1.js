@@ -12,6 +12,6 @@ if ((ofAge == true) & (likesJavaScript == true)) {
   likesJSAndIsAdult = true;
 } else likesJSAndIsAdult = false;
 let Welcome = `Cześć ${userNameCorrected} masz już ${userAge} lata.`;
-likesJavaScript == true ? (Welcome += `Fajnie że lubisz JS`) : false;
-isWarsawCitizen == true ? (Welcome += `Widzę że mieszkasz w Warszawie`) : false;
-Welcome += `Twoje hobby ${userHobby} jest bardzo ciekawe`;
+likesJavaScript == true ? (Welcome += ` Fajnie że lubisz JS.`) : false;
+isWarsawCitizen == true ? (Welcome += ` Widzę że mieszkasz w Warszawie`) : false;
+Welcome += ` Twoje hobby ${userHobby} jest bardzo ciekawe`;
